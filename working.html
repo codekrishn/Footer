@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <style>
-    .working{
+    .working {
         margin: 10vh 19vw;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .working p{
+    .working p {
         font-size: 3rem;
     }
+
+    @media screen and (max-width: 571px) {
+        .working{
+            margin: 10vh 3vh;
+        }
+
+        .working p {
+        font-size: 2.1rem;
+    }
+    }
 </style>
+
 <body>
     <div class="working" id="working">
-        <p>🙋🏻‍♀️Hi, just letting you know I'm currently working. I’ll get back to you soon. Thanks for your patience!</p>
+        <p>🙋🏻‍♀️Hi, just letting you know I'm currently working. I’ll get back to you soon. Thanks for your patience!
+        </p>
     </div>
 </body>
+
 </html>
